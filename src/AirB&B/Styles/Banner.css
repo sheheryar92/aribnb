@@ -1,0 +1,28 @@
+.banner {
+          background: url('https://www.princehotels.com/wp-content/uploads/2019/04/aboutslider2-1.jpg') center center;
+     
+      
+       position: relative;
+          
+}
+.banner_info > h1 {
+          text-transform: capitalize;
+}
+.banner_info {
+          background-color: black;
+          color: whitesmoke;
+       width: 300px;
+        padding: 25vh 50px 40px 50px;
+}
+.banner_info > button {
+       
+          color: whitesmoke;
+}
+.banner_searchButton {
+          background-color: whitesmoke !important;
+}
+.banner_search {
+         
+          flex-direction: column ;
+          display: flex ;
+}

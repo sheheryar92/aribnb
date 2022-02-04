@@ -1,0 +1,47 @@
+.header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 13px 0px 0px 0px;
+}
+.logo {
+          height: 50px;
+}
+.header_center {
+          display: flex;
+          align-items: center;
+          border-radius: 999px;
+          background-color: whitesmoke;
+       max-width: fit-content;
+           border: 1px solid lightgray;
+        padding: 10px;
+        height: 30px;
+        flex: 1;
+}
+.Header_Search {
+       border: none;
+       background-color: whitesmoke;
+          width: 100%;
+          outline-width: 0;
+          padding: 10px;
+}
+
+
+.header_right {
+          display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}
+
+
+
+.header_container {
+   position: sticky;
+   width: 100%;
+   z-index: 2;
+   top: 0;
+   background-color: whitesmoke;
+
+}

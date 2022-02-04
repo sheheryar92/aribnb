@@ -1,0 +1,46 @@
+.covid_header{
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 20px;
+          align-items: center;
+}
+
+.card_container {
+          display: flex;
+          justify-content: space-between;
+}
+
+
+.main_container {
+          display: flex;
+          justify-content: space-evenly;
+          
+}
+
+.left_side {
+          flex: 0.8;
+}
+
+@media (max-width: 900px ) {
+          .main_container {
+          
+                    flex-direction: column;
+          }
+} 
+
+.tableData {
+          background-color: whitesmoke;
+       height: 400px;
+       overflow: scroll;
+    margin-top: 20px;
+}
+
+tr {
+          display: flex;
+          padding: 10px;
+          justify-content: space-between;
+}
+
+ tr:nth-of-type(odd) {
+          background-color: lightgray;
+        }
